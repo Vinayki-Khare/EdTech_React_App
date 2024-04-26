@@ -5,7 +5,6 @@ import Course from './src/students/Course';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Course/>
       <StatusBar style="auto" />
     </View>
   );
