@@ -45,14 +45,14 @@ const MakeClass = () => {
                 <Text style={styles.heading}>Select What You Want To Learn</Text>
                 <Text style={styles.heading}>&nbsp;</Text>
             </View>
-            <View style={styles.container2}>
+            {/* <View style={styles.container2}>
                 <FlatList
                     data={Course}
                     renderItem={renderItem}
                     keyExtractor={item => item.id.toString()} // Converted to string
                     extraData={selectedIds} // Use selectedIds as extraData
                 />
-            </View>
+            </View> */}
             <TouchableOpacity style={styles.button}>
                 <Text style={styles.text5}>Get Started</Text>
             </TouchableOpacity>
